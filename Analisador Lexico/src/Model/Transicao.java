@@ -12,7 +12,7 @@ public class Transicao {
         // Assumindo que o automato não vai mudar então os valores são definidos manualmente (visto que já se sabe a estrutura da tabela)
         this.numero_estados = 24; // Conferir estados em Util.Estado
         this.numero_entradas_alfabeto =  127; // TABELA ASCII até o 126
-        this.tabela_de_trasicao = new Estado[this.numero_estados][this.numero_entradas_alfabeto];
+        this.tabela_de_trasicao = new Estado[this.numero_entradas_alfabeto][this.numero_estados];
         //Inicializa a tabela com todos os elementos setados em null
         for(int i = 0; i < this.numero_estados; i++){
             for(int j = 0; j < this.numero_entradas_alfabeto; j++){
@@ -25,7 +25,7 @@ public class Transicao {
 
     private void inicializarMatriz() {
         /*  Seta os estados que envolvem transição sengindo o padrão:
-                Matriz[estados][entradas] = novo Estado
+                Matriz[entradas][estados] = novo Estado
         */
 
 
