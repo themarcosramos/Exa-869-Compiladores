@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1e8417c-615c-4309-bf78-453553826ed7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Model/Transicao.java" afterPath="$PROJECT_DIR$/src/Model/Transicao.java" />
-    </list>
+    <list default="true" id="a1e8417c-615c-4309-bf78-453553826ed7" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
