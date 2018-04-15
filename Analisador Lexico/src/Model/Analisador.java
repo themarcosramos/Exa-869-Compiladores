@@ -48,3 +48,7 @@ public class Analisador {
         }
         return dados;
     }
+
+    public Tocken nexttoken() {
+        
+    }
