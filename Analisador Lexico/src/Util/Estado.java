@@ -32,7 +32,7 @@ public enum Estado {
     Estado(int estado){
         estadoValor = estado;
     }
-    public int getEstado(){
+    public int getEstadoValor(){
         return estadoValor;
     }
 }
