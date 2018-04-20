@@ -25,10 +25,10 @@ public class Analisador {
       private Scanner arquivo_saida; // arquivo de saida do analisador
       private Transicao transicao; // matriz de transição
       private ArrayList<Token> tokens; // lista de tokens lidos
-      private boolean quebra_linha;
-      private boolean fim_arquivo;
-      private String linha_lida;
-      private int index_de_leitura;
+      private boolean quebra_linha;// variavel para identificar a quebra de linha do arquivo que vai ser lido
+      private boolean fim_arquivo;// varaviel para identificar que a leitura do arquivo chegou ao fim
+      private String linha_lida; // variavel para identificar  as linhas já lidas  do arquivo
+      private int index_de_leitura; // variavel que  identificar a idexação da leitura do arquivo
 
       public Analisador(){
 
@@ -50,7 +50,7 @@ public class Analisador {
           this.transicao = new Transicao();
           //////////////////////////////////////////////////////////////
           //setando variaveis iniciais
-          this.tokens = new ArrayList<>();
+          this.tokens = new ArrayList<>(); // criação da lista para armazenar tockens
           this.estado_atual = Estado.Inicial;
           this.ultimo_estado_valido = Estado.Inicial;
           this.lexema = "";
