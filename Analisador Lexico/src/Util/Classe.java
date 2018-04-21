@@ -2,15 +2,16 @@ package Util;
 
 public enum Classe {
 
-    PALAVRA_RESERVADA(1),
-    IDENTIFICADOR(2),
-    NUMERO(3),
-    OPERADOR_ARITMETICO(4),
-    OPERADOR_RELACIONAL(5),
-    OPERADOR_LOGICO(6),
-    DELIMITADOR(7),
-    CADEIA_DE_CARACTERES(8),
-    TOKEN_MAL_FORMADO(9);
+    PRE(1),  // PALAVRA RESERVADA
+    IDE(2),  // IDENTIFICADOR
+    NRO(3),  // NUMERO
+    ART(4),  // OPERADOR ARITIMETICO
+    REL(5),  // OPERADOR RELACIONAL
+    LOG(6),  // OPERADOR LÓGICO
+    DEL(7),  // DELIMITADOR
+    CAR(8),  // CADEIA DE CARACTERES
+    TMF(9),  // TOKEN MAL FORMADO
+    COM(10); // COMENTARIO
 
     private final int classeValor;
 

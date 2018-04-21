@@ -25,7 +25,8 @@ public enum Estado {
     oplp(20),
     cadcp1(21),
     cadcp2(22),
-    CADC(23); //* FINAL *//
+    CADC(23), //* FINAL *//
+    PALR(24); //* FINAL *//
 
     private final int estadoValor;
 
